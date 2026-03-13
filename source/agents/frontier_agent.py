@@ -16,7 +16,7 @@ class FrontierAgent(Agent):
         Set up this instance by connecting to OpenAI, to the Chroma Datastore,
         And setting up the vector encoding model
         """
-        self.log("Initializing Frontier Agent")
+        self.log("Frontier Agent is initializing")
         self.client = OpenAI()
         self.MODEL = "gpt-5.1"
         self.log("Frontier Agent is setting up with OpenAI")

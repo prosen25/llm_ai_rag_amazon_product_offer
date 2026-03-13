@@ -12,7 +12,7 @@ class EnsembleAgent(Agent):
         """
         Create an instance of the Ensemble, by creating each of the models
         """
-        self.log("Initializing Ensemble Agent")
+        self.log("Ensemble Agent is initializing")
         self.preprocessor = Preprocessor()
         self.frontier = FrontierAgent(collection=collection)
         self.specialist = SpecialistAgent()

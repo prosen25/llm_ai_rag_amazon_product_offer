@@ -39,7 +39,7 @@ class ScannerAgent(Agent):
         Look up deals published on RSS feeds
         Return any new deals that are not already in the memory provided
         """
-        self.log("Scanner Agent is about to fetch deals from RSS feeb")
+        self.log("Scanner Agent is about to fetch deals from RSS feed")
         urls = [opp.deal.url for opp in memory]
         scraped = ScrapedDeal.fetch()
         result = [scrape for scrape in scraped if scrape.url not in urls]
