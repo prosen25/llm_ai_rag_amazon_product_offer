@@ -1,0 +1,56 @@
+[
+  {
+    "deal": {
+      "product_description": "Anker Solix F3000 Portable Power Station (model F3000) is a high-capacity combined generator and battery system providing up to 3,600W AC output with ultra-low idle draw and pass-through charging. It supports dual solar input for up to 2,400W charging, expandable capacity up to 24 kWh, and the option to pair two units for 240V high-demand appliances. The unit is designed for heavy-duty off-grid power, emergency backup, and large-appliance support.",
+      "price": 1234.0,
+      "url": "https://www.dealnews.com/products/Anker-Solix/Anker-Solix-F3000-3-600-W-Portable-Power-Station/497959.html?iref=rss-c142"
+    },
+    "estimate": 2423.8763366699222,
+    "discount": 1189.8763366699222
+  },
+  {
+    "deal": {
+      "product_description": "Apple iMac with M4 chip (24-inch, model MWUC3LL/A) is an all-in-one desktop featuring the M4 processor with a 3.2 GHz 8-core CPU and 8-core GPU, a 24-inch 4.5K Retina display, 16GB of RAM, and a 256GB SSD running macOS. The compact, color-matched design integrates high-resolution visuals and Apple silicon performance for creative and productivity workflows in a single desktop unit.",
+      "price": 1192.0,
+      "url": "https://www.dealnews.com/products/Apple/Apple-iMac-M4-All-in-One-Desktop-Computer-with-256-GB-SSD-2024/497951.html?iref=rss-c39"
+    },
+    "estimate": 1465.3431413574222,
+    "discount": 273.34314135742216
+  },
+  {
+    "deal": {
+      "product_description": "MOVA P10 Pro Ultra is a robot vacuum and mop combo with a high 13,000Pa suction motor and a self-cleaning, self-drying dock. The system uses a lifting mop mechanism to avoid carpets and supports app control for custom cleaning modes and scheduling. It offers around 2.5 hours of continuous runtime per charge and is built for homes needing both vacuuming and wet-mopping automation.",
+      "price": 399.0,
+      "url": "https://www.dealnews.com/products/Mova/MOVA-P10-Pro-Ultra-Robot-Vacuum-Mop/490306.html?iref=rss-f1912"
+    },
+    "estimate": 705.111117553711,
+    "discount": 306.111117553711
+  },
+  {
+    "deal": {
+      "product_description": "ASUS ZenScreen 16\" 1080p IPS USB-C portable monitor is a 15.6-inch Full HD display with an IPS panel for wide viewing angles and accurate colors. It supports USB-C and Mini\u2011HDMI inputs, includes a 360\u00b0 adjustable kickstand for landscape and portrait modes, and features T\u00dcV\u2011certified blue light protection to reduce eye strain. The lightweight, slim design makes it suitable as a secondary display for laptops, tablets, and phones while traveling or working remotely.",
+      "price": 79.0,
+      "url": "https://www.dealnews.com/products/ASUS/ASUS-Zen-Screen-16-1080-p-IPS-USB-C-Portable-Monitor/497957.html?iref=rss-c39"
+    },
+    "estimate": 225.07853564453129,
+    "discount": 146.07853564453129
+  },
+  {
+    "deal": {
+      "product_description": "iSinbox 1,200-ANSI 1080p Native Outdoor Projector is a portable home/outdoor projector that offers native 1080p resolution with 4K and HDR10+ passthrough, rated at 1200 ANSI lumens for bright projection. It includes built-in Wi-Fi and Bluetooth, smart apps (like Netflix), AI-assisted autofocus and keystone correction, plus a dual-mode stand and carry handle for easy outdoor setup. The projector is positioned for cinematic outdoor viewing with versatile connectivity and mobile streaming features.",
+      "price": 100.0,
+      "url": "https://www.dealnews.com/iSinbox-1-200-ANSI-1080-p-Native-Outdoor-Projector-w-Wi-Fi-and-Bluetooth-for-100-free-shipping/21816075.html?iref=rss-c39"
+    },
+    "estimate": 250.02779406738284,
+    "discount": 150.02779406738284
+  },
+  {
+    "deal": {
+      "product_description": "Kogata Smart Projector is a compact projector that supports 4K input and offers 850 ANSI lumens brightness, full-angle autofocus and keystone correction, WiFi 6, and bidirectional Bluetooth. It can project up to 300\" and uses an MTK9269 chip for media playback and smart features, making it suitable for home theater and portable presentations.",
+      "price": 100.0,
+      "url": "https://www.dealnews.com/Kogata-Smart-Projector-with-Wi-Fi-6-Bluetooth-for-100-free-shipping/21815175.html?iref=rss-f1912"
+    },
+    "estimate": 245.472615234375,
+    "discount": 145.472615234375
+  }
+]

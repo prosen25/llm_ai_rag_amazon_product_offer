@@ -42,7 +42,7 @@ def init_logging():
     handler = logging.StreamHandler(sys.stdout)
     handler.setLevel(logging.INFO)
     formatter = logging.Formatter(
-        fmt="[%(asctime)s] [Agents] [%(levelname)s] %(message)s",
+        "[%(asctime)s] [Agents] [%(levelname)s] %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S %z"
     )
     handler.setFormatter(fmt=formatter)
@@ -100,9 +100,9 @@ class DealAgentFramework:
         Run Planning Agent to notify user with the best deal from internet
         """
         self.init_agent_as_needed()
-        logging.info("Kicking off Planning Agent")
+        self.log("Kicking off Planning Agent")
         result = self.planner.plan(memory=self.memory)
-        logging.info(f"Planning Agent has completed and returned: {result}")
+        self.log(f"Planning Agent has completed and returned: {result}")
         if result:
             self.memory.append(result)
             self.write_memory()
@@ -111,16 +111,16 @@ class DealAgentFramework:
     @classmethod
     def reset_memory(cls) -> None:
         data = []
-        if os.path.exists(cls.MEMORY_FILENAME):
-            with open(cls.MEMORY_FILENAME, "r") as file:
+        if os.path.exists(cls.MEMORY_FILE):
+            with open(cls.MEMORY_FILE, "r") as file:
                 data = json.load(file)
         truncated = data[:2]
-        with open(cls.MEMORY_FILENAME, "w") as file:
+        with open(cls.MEMORY_FILE, "w") as file:
             json.dump(truncated, file, indent=2)
 
     @classmethod
     def get_plot_data(cls, max_datapoints=2000):
-        client = chromadb.PersistentClient(path=cls.DB)
+        client = chromadb.PersistentClient(path=cls.VECTOR_DB)
         collection = client.get_or_create_collection("products")
         result = collection.get(
             include=["embeddings", "documents", "metadatas"], limit=max_datapoints
